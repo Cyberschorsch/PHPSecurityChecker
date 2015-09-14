@@ -1,0 +1,19 @@
+{
+    "name": "opale/codeclimate-php-sensio-security-checker",
+    "description": "A codeclimite engine testing a composer project against the Security Advisories Checker from SensioLabs",
+    "require": {
+        "sensiolabs/security-checker": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yann",
+            "email": "yann@opale.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Opale\\PHPSecurityChecker\\": "src/PHPSecurityChecker"
+        }
+    }
+}

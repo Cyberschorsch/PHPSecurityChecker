@@ -1,6 +1,6 @@
 {
     "name": "opale/codeclimate-php-sensio-security-checker",
-    "description": "A codeclimite engine testing a composer project against the Security Advisories Checker from SensioLabs",
+    "description": "A codeclimate engine testing a composer project against the Security Advisories Checker from SensioLabs",
     "require": {
         "sensiolabs/security-checker": "^3.0"
     },

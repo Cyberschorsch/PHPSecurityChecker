@@ -11,8 +11,11 @@ RUN apk --update add git php-common php-ctype php-iconv php-json php-pcntl php-p
     apk del build-base && rm -fr /usr/share/ri
 
 RUN adduser -u 9000 -D app
-USER app
 
+WORKDIR /code
 COPY . /usr/src/app
+
+USER app
+VOLUME /code
 
 CMD ["/usr/src/app/bin/codeclimate-php-sensio-security-checker"]

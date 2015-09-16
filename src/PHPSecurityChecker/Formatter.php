@@ -29,7 +29,7 @@ class Formatter
 
             $issue['content']['body'] = $this->buildContentMarkdown($vulnerability['advisories']);
 
-            echo json_encode($issue);
+            fwrite(STDOUT, json_encode($issue) . "\0");
         }
     }
 

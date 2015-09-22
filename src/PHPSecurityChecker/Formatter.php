@@ -28,6 +28,7 @@ class Formatter
             );
 
             $issue['content']['body'] = $this->buildContentMarkdown($vulnerability['advisories']);
+
             file_put_contents('php://stdout', json_encode($issue, JSON_UNESCAPED_SLASHES, JSON_UNESCAPED_UNICODE));
             file_put_contents('php://stdout', chr(0));
         }

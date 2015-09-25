@@ -1,13 +1,13 @@
 {
-    "name": "opale/codeclimate-phpsensiosecuritychecker",
-    "description": "A codeclimate engine testing a composer project against the Security Advisories Checker from SensioLabs",
+    "name": "opale/phpsensiosecuritychecker",
+    "description": "An engine testing a composer project against the Security Advisories Checker from SensioLabs",
     "require": {
         "sensiolabs/security-checker": "^3.0"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Yann",
+            "name": "Yann Mad",
             "email": "yann@opale.net"
         }
     ],

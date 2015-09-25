@@ -1,7 +1,0 @@
-engines:
-  phpsensiosecuritychecker:
-    enabled: true
-
-exclude_paths:
-- .git/**/*
-- vendor/**/*

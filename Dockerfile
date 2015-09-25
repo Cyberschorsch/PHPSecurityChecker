@@ -1,5 +1,5 @@
 FROM alpine:edge
-MAINTAINER Yann <yann@opale.net>
+MAINTAINER Yann Mad <yann@opale.net>
 
 WORKDIR /usr/src/app
 COPY composer.json /usr/src/app/
@@ -18,4 +18,4 @@ COPY . /usr/src/app
 USER app
 VOLUME /code
 
-CMD ["/usr/src/app/bin/codeclimate-php-sensio-security-checker"]
+CMD ["/usr/src/app/bin/php-sensio-security-checker"]
